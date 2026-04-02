@@ -1,34 +1,39 @@
-# cybersec_ML
-Trying to connect ML with cybersec 
-# Log Anomaly Detection using Machine Learning
+# Cybersecurity Projects
 
 ## Overview
 
-This project explores anomaly detection in system logs using basic machine learning techniques. The goal is to simulate how unusual system behavior can be identified from structured log data.
+This repository contains a collection of projects exploring cybersecurity concepts using machine learning and data analysis. The focus is on understanding how data-driven techniques can be applied to detect and analyze potential security threats.
 
-## Approach
+## Projects
 
-* Processed structured system logs (BGL dataset)
-* Applied time-window based aggregation to capture behavioral patterns
-* Extracted features such as log volume, severity levels, and event diversity
-* Implemented:
+### 1. Log Anomaly Detection
 
-  * Supervised model (Random Forest)
-  * Unsupervised model (Isolation Forest)
+* Analyzes system logs to identify unusual behavior
+* Uses time-window based feature extraction
+* Implements unsupervised anomaly detection (Isolation Forest)
+* Simulates basic log monitoring workflows
 
-## Output
+### 2. Threat Classification
 
-The model identifies time windows with abnormal activity, such as spikes in fatal errors or unusual system patterns.
+* Classifies data into different categories (e.g., normal vs malicious)
+* Uses supervised machine learning techniques
+* Focuses on feature-based pattern recognition
+
+## Tech Stack
+
+* Python
+* Pandas
+* Scikit-learn
 
 ## Notes
 
-This is a beginner-level project aimed at understanding log-based anomaly detection. The focus is on building a clear pipeline rather than optimizing performance.
+These projects are developed as part of learning and exploring cybersecurity fundamentals. The emphasis is on building clear and understandable implementations.
 
 ## Future Scope
 
-* NLP-based analysis of log messages
-* Real-time anomaly detection
-* Visualization/dashboard integration
+* Applying NLP techniques to log data
+* Real-time threat detection systems
+* Visualization dashboards for monitoring
 
 ## Author
 
